@@ -68,6 +68,10 @@ form {
   z-index: 2;
 }
 
+.offcanvas {
+  border-top: 2px rgb(187, 187, 187) solid !important;
+}
+
 #offcanvas form {
   padding: 1rem;
 }
@@ -78,7 +82,8 @@ form {
 }
 
 .offcanvas-header {
-  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 5;
   display: flex;
   justify-content: space-between;
 }
@@ -92,7 +97,6 @@ h5 {
   font-weight: normal;
   font-family: Sansation;
   color: white;
-  display: none;
   word-wrap: break-word;
   overflow-wrap: break-word;
   white-space: normal;
@@ -118,6 +122,8 @@ img,
 #planet-preview {
   display: flex;
   justify-content: center;
+  margin: 1rem;
+  padding-top: 1.5rem;
 }
 
 #planet-preview canvas {
